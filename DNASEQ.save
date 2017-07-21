@@ -1,0 +1,6 @@
+import random
+for i in range(300):
+	x=random.uniform(0,1)
+
+	if x>=0 and x<0.2:
+		genome 

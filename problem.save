@@ -1,0 +1,12 @@
+l = ["ATGC", "A", "TT", "CACTAT"]
+
+
+k = ""
+for i in l:
+        if len(i) > len(k):
+                k = i
+
+
+print k
+
+

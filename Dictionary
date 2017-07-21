@@ -12,6 +12,6 @@ for i in y:
 		D[x[0]]=x[1]
 
 
-print D[str(input("Type in a State Abbreviation in all CAPS with Quotation Marks"))]
+print D[raw_input("Type in a State Abbreviation: ")]
 
 

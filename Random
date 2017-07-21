@@ -1,0 +1,27 @@
+f=open("/share/data/login.txt")
+lines=f.readlines()
+lines1=f.readlines()
+print lines
+print lines1
+def wow():
+	u = str(input("Type in a username"))
+def wow1():
+	p = str(input("Type in a password"))
+def wow2():
+	a = str(input("Try entering in the username again"))
+def wow3():
+	b = str(input("Try entering in the password again"))
+
+if wow() in lines:
+	wow1()
+else:
+	print "Username Not Found. Try again"
+	wow2()
+	continue
+
+if wow1() in lines1:
+	print "You are logged in"
+else:
+	print "Incorrect Password. Try again"
+	wow3()
+	continue

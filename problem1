@@ -1,0 +1,13 @@
+l = ["ATGC", "T", "TT", "CACTAT"]
+
+h = []
+k = "AAAAAAAAAAAAAAAAAAA"
+for i in l:
+        if len(i) < len(k):
+		k = i		
+		l.remove(k)
+		h.append(k)
+		
+
+print h
+		
